@@ -1,14 +1,29 @@
 body {
-  background-color: #444444;
+  background-color: rgb(50, 43, 188);
   color: #dddddd;
-  font-family: Arial, Helcetica, san-serif;
+  font-family: "Times New Roman", Times, serif;
   margin: 10% 20%;
 }
 
 .exp-header {
   text-align: center;
   text-transform: uppercase;
-  border-top: 1px solid #dddddd;
-  border-bottom: 1px solid #dddddd;
-  background-color: rgba(0,0,0, 0.1);
+  border-top: 3px solid #dddddd;
+  border-bottom: 3px solid #dddddd;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.words {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#name {
+  text-align: center;
 }
